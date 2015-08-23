@@ -1,0 +1,21 @@
+{
+  "name": "picon/samples",
+  "description": "Sample Application for the Picon Framework",
+  "minimum-stability": "dev",
+  "license": "GNU",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/picon/picon-framework"
+    }
+  ],
+  "require": {
+    "picon/picon-framework": "*"
+  },
+  "authors": [
+    {
+      "name": "Martin Cassidy",
+      "email": "martin.cassidy@webquub.com"
+    }
+  ]
+}
