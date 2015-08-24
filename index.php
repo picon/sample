@@ -24,7 +24,7 @@
  * Path to the root picon directory without a trailing slash
  * This is the directory containing PiconApplication
  */
-define("PICON_DIRECTORY", __DIR__.'/../src/picon');
+define("PICON_DIRECTORY", __DIR__.'/vendor/picon/picon-framework/src/picon/');
 
 /**
  * Path to the assets directory in which the user
@@ -45,6 +45,11 @@ define("CONFIG_FILE", __DIR__.'/config/picon.xml');
 define("CACHE_DIRECTORY", __DIR__.'/cache');
 
 require_once(__DIR__ . "/vendor/autoload.php");
+
+require_once(__DIR__."/assets/SamplePageClassAuthorisationStrategy.php");
+require_once(__DIR__."/assets/AbstractPage.php");
+require_once(__DIR__."/assets/AbstractAuthorisedPage.php");
+require_once(__DIR__."/assets/LoginPage.php");
 
 use picon\web\PiconWebApplication;
 

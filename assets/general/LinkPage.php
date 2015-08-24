@@ -20,9 +20,9 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\Link;
-use picon\web\Label;
-use picon\web\PropertyModel;
+use picon\web\markup\html\link\Link;
+use picon\web\markup\html\basic\Label;
+use picon\web\model\PropertyModel;
 
 /**
  * Description of LinkPage

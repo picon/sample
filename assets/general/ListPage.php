@@ -20,11 +20,11 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\ListView;
-use picon\web\ArrayModel;
-use picon\web\Label;
-use picon\web\BasicModel;
-use picon\web\RepeatingView;
+use picon\web\markup\html\repeater\ListView;
+use picon\web\model\ArrayModel;
+use picon\web\markup\html\basic\Label;
+use picon\web\model\BasicModel;
+use picon\web\markup\html\repeater\RepeatingView;
 use picon\web\MarkupContainer;
 
 /**

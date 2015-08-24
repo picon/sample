@@ -20,6 +20,9 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
+use picon\web\markup\html\table\PropertyColumn;
+use picon\web\markup\html\table\DefaultDataTable;
+
 /**
  * Description of DataTablePage
  * 
@@ -31,11 +34,11 @@ class DataTablePage extends AbstractPage
     {
         parent::__construct();
         $columns = array();
-        $columns[] = new picon\PropertyColumn('Sample Value', 'value');
+        $columns[] = new PropertyColumn('Sample Value', 'value');
         
         $provider = new SampleDataProvider();
-        
-        $this->add(new \picon\DefaultDataTable('table', $provider, $columns));
+        $table = new DefaultDataTable('table', $provider, $columns);
+        $this->add($table);
     }
     
     public function getInvolvedFiles()

@@ -30,7 +30,8 @@ class BorderPage extends AbstractPage
     public function __construct()
     {
         parent::__construct();
-        $this->add(new SampleBorder('border'));
+        $border = new SampleBorder('border');
+        $this->add($border);
     }
     
     public function getInvolvedFiles()

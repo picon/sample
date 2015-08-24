@@ -19,13 +19,14 @@
  * You should have received a copy of the GNU General Public License
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
+use picon\web\markup\html\panel\Panel;
 
 /**
  * Description of TabTwoPanel
  * 
  * @author Martin Cassidy
  */
-class TabTwoPanel extends picon\web\Panel
+class TabTwoPanel extends Panel
 {
     
 }

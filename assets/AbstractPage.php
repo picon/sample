@@ -20,10 +20,10 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\WebPage;
+use picon\web\domain\PopupSettings;
+use picon\web\markup\html\link\Link;
 use picon\web\request\HeaderResponse;
-use picon\web\Link;
-use picon\web\PopupSettings;
+use picon\web\pages\WebPage;
 
 /**
  * Description of AbstractPage

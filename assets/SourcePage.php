@@ -21,13 +21,13 @@
  * */
 
 use picon\web\request\HeaderResponse;
-use picon\web\WebPage;
-use picon\web\ListItem;
-use picon\web\ListView;
-use picon\web\ArrayModel;
-use picon\web\AjaxRequestTarget;
+use picon\web\pages\WebPage;
+use picon\web\markup\html\repeater\ListItem;
+use picon\web\markup\html\repeater\ListView;
+use picon\web\model\ArrayModel;
+use picon\web\request\target\AjaxRequestTarget;
 use picon\web\MarkupContainer;
-use picon\web\Label;
+use picon\web\markup\html\basic\Label;
 use picon\web\ajax\markup\html\AjaxLink;
 
 /**

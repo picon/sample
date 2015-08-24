@@ -19,8 +19,8 @@
  * You should have received a copy of the GNU General Public License
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
+use picon\web\markup\html\panel\Border;
 
-use picon\web\Border;
 
 /**
  * Description of SampleBorder
@@ -32,7 +32,8 @@ class SampleBorder extends Border
     public function __construct($id)
     {
         parent::__construct($id);
-        $this->add($this->getBorderBody());
+        $body = $this->getBorderBody();
+        $this->add($body);
     }
 }
 

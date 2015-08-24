@@ -20,7 +20,7 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\Link;
+use picon\web\markup\html\link\Link;
 
 /**
  * Description of AuthorisedPage

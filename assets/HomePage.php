@@ -1,11 +1,11 @@
 <?php
 
-use picon\web\ListView;
-use picon\web\ArrayModel;
-use picon\web\Label;
-use picon\web\ListItem;
-use picon\web\BasicModel;
-use picon\web\Link;
+use picon\web\markup\html\repeater\ListView;
+use picon\web\model\ArrayModel;
+use picon\web\markup\html\basic\Label;
+use picon\web\markup\html\repeater\ListItem;
+use picon\web\model\BasicModel;
+use picon\web\markup\html\link\Link;
 
 /**
  * Sample Homepage

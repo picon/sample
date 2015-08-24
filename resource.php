@@ -44,7 +44,7 @@ define("CONFIG_FILE", __DIR__.'/config/picon.xml');
  */
 define("CACHE_DIRECTORY", __DIR__.'/cache');
 
-require_once("../src/picon/web/PiconWebResourceApplication.php");
+require_once(__DIR__ . "/vendor/autoload.php");
 
 use picon\web\PiconWebResourceApplication;
 

@@ -20,9 +20,9 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\Panel;
-use picon\web\Label;
-use picon\web\BasicModel;
+use picon\web\markup\html\panel\Panel;
+use picon\web\markup\html\basic\Label;
+use picon\web\model\BasicModel;
 
 /**
  * Description of CodeOutputPanel

@@ -19,15 +19,15 @@
  * You should have received a copy of the GNU General Public License
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
+use picon\core\domain\CommonDomainBase;
 
-use picon\ComonDomainBase;
 
 /**
  * Description of ExampleType
  * 
  * @author Martin Cassidy
  */
-class ExampleType extends ComonDomainBase
+class ExampleType extends CommonDomainBase
 {
     private $name;
     private $examples;

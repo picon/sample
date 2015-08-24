@@ -20,26 +20,25 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\AjaxButton;
-use picon\web\BasicModel;
-use picon\web\Button;
-use picon\web\Check;
-use picon\web\CheckBox;
-use picon\web\CheckBoxGroup;
-use picon\web\CheckChoice;
-use picon\web\CompoundPropertyModel;
-use picon\web\DropDown;
-use picon\web\FeedbackPanel;
-use picon\web\Label;
-use picon\web\ListMultiple;
-use picon\web\ListView;
+use picon\web\model\BasicModel;
+use picon\web\markup\html\form\Button;
+use picon\web\markup\html\form\Check;
+use picon\web\markup\html\form\CheckBox;
+use picon\web\markup\html\form\CheckBoxGroup;
+use picon\web\markup\html\form\CheckChoice;
+use picon\web\model\CompoundPropertyModel;
+use picon\web\markup\html\form\DropDown;
+use picon\web\markup\html\panel\FeedbackPanel;
+use picon\web\markup\html\basic\Label;
+use picon\web\markup\html\form\ListMultiple;
+use picon\web\markup\html\repeater\ListView;
 use picon\web\markup\html\form\Form;
 use picon\web\MarkupContainer;
-use picon\web\Radio;
-use picon\web\RadioChoice;
-use picon\web\RadioGroup;
-use picon\web\TextArea;
-use picon\web\TextField;
+use picon\web\markup\html\form\Radio;
+use picon\web\markup\html\form\RadioChoice;
+use picon\web\markup\html\form\RadioGroup;
+use picon\web\markup\html\form\TextArea;
+use picon\web\markup\html\form\TextField;
 
 /**
  * Description of FormPage

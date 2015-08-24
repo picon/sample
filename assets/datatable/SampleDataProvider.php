@@ -20,7 +20,7 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\DataProvider;
+use picon\web\markup\html\table\DataProvider;
 
 /**
  * Description of SampleDataProvider

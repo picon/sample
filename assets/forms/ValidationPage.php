@@ -20,18 +20,18 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\FeedbackPanel;
-use picon\web\Button;
+use picon\web\markup\html\panel\FeedbackPanel;
+use picon\web\markup\html\form\Button;
 use picon\web\markup\html\form\Form;
-use picon\web\RequiredTextField;
-use picon\web\MaximumValidator;
-use picon\web\EmailAddressValidator;
-use picon\web\MinimumValidator;
-use picon\web\RangeValidator;
-use picon\web\MaximumLengthValidator;
-use picon\web\MinimumLengthValidator;
-use picon\web\RangeLengthValidator;
-use picon\web\TextArea;
+use picon\web\markup\html\form\RequiredTextField;
+use picon\web\markup\html\form\validation\MaximumValidator;
+use picon\web\markup\html\form\validation\EmailAddressValidator;
+use picon\web\markup\html\form\validation\MinimumValidator;
+use picon\web\markup\html\form\validation\RangeValidator;
+use picon\web\markup\html\form\validation\MaximumLengthValidator;
+use picon\web\markup\html\form\validation\MinimumLengthValidator;
+use picon\web\markup\html\form\validation\RangeLengthValidator;
+use picon\web\markup\html\form\TextArea;
 
 
 /**

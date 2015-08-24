@@ -19,20 +19,20 @@
  * You should have received a copy of the GNU General Public License
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
-
-use picon\ComonDomainBase;
+use picon\core\domain\CommonDomainBase;
+use picon\core\domain\Identifier;
 
 /**
  * Description of Example
  * 
  * @author Martin Cassidy
  */
-class Example extends ComonDomainBase
+class Example extends CommonDomainBase
 {
     private $name;
     private $page;
     
-    public function __construct($name, \picon\Identifier $page)
+    public function __construct($name, Identifier $page)
     {
         $this->name = $name;
         $this->page = $page;

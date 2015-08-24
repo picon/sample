@@ -20,9 +20,9 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\Label;
-use picon\web\PropertyModel;
-use picon\web\AjaxRequestTarget;
+use picon\web\markup\html\basic\Label;
+use picon\web\model\PropertyModel;
+use picon\web\request\target\AjaxRequestTarget;
 use picon\web\ajax\markup\html\AjaxLink;
 
 /**

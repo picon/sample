@@ -27,13 +27,13 @@
  * 
  * */
 
-use picon\web\Label;
-use picon\web\FeedbackPanel;
+use picon\web\markup\html\basic\Label;
+use picon\web\markup\html\panel\FeedbackPanel;
 use picon\web\markup\html\form\Form;
-use picon\web\RequiredTextField;
-use picon\web\PropertyModel;
+use picon\web\markup\html\form\RequiredTextField;
+use picon\web\model\PropertyModel;
 use picon\web\ajax\markup\html\AjaxButton;
-use picon\web\AjaxRequestTarget;
+use picon\web\request\target\AjaxRequestTarget;
 
 /**
  * Description of AjaxLinkPage

@@ -20,12 +20,14 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
+use picon\core\domain\CommonDomainBase;
+
 /**
  * Description of TableEntryDomain
  * 
  * @author Martin Cassidy
  */
-class TableEntryDomain extends \picon\ComonDomainBase
+class TableEntryDomain extends CommonDomainBase
 {
     private $value;
     

@@ -21,13 +21,13 @@
  * */
 
 use picon\web\ajax\markup\html\AjaxButton;
-use picon\web\Button;
-use picon\web\DateField;
-use picon\web\FeedbackPanel;
-use picon\web\FileModel;
-use picon\web\FileUploadField;
+use picon\web\markup\html\form\Button;
+use picon\web\markup\html\form\DateField;
+use picon\web\markup\html\panel\FeedbackPanel;
+use picon\web\model\FileModel;
+use picon\web\markup\html\form\FileUploadField;
 use picon\web\markup\html\form\Form;
-use picon\web\PropertyModel;
+use picon\web\model\PropertyModel;
 
 /**
  * 

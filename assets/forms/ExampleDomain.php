@@ -19,15 +19,15 @@
  * You should have received a copy of the GNU General Public License
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
+use picon\core\domain\CommonDomainBase;
 
-use picon\ComonDomainBase;
 
 /**
  * A simple domain object being used for the form page
  * 
  * @author Martin Cassidy
  */
-class ExampleDomain extends ComonDomainBase
+class ExampleDomain extends CommonDomainBase
 {
     private $textBox = 'default value';
     private $textArea = 'default text area value';

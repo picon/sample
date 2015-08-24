@@ -20,8 +20,8 @@
  * along with Picon Framework.  If not, see <http://www.gnu.org/licenses/>.
  * */
 
-use picon\web\TabCollection;
-use picon\web\TabPanel;
+use picon\web\markup\html\tabs\TabCollection;
+use picon\web\markup\html\tabs\TabPanel;
 
 /**
  * Description of TabPanelPage
@@ -44,7 +44,8 @@ class TabPanelPage extends AbstractPage
             return new TabTwoPanel($id);
         });
 
-        $this->add(new TabPanel('tabs', $collection));
+        $tab = new TabPanel('tabs', $collection);
+        $this->add($tab);
     }
     
     public function getInvolvedFiles()
