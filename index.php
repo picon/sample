@@ -30,7 +30,7 @@ define("PICON_DIRECTORY", __DIR__.'/vendor/picon/picon-framework/src/picon/');
  * Path to the assets directory in which the user
  * created classes reside
  */
-define("ASSETS_DIRECTORY", __DIR__.'/assets');
+define("ASSETS_DIRECTORY", __DIR__.'/src/picon/sample');
 
 /**
  * Path to the config directory in which the xml config files
@@ -46,11 +46,9 @@ define("CACHE_DIRECTORY", __DIR__.'/cache');
 
 require_once(__DIR__ . "/vendor/autoload.php");
 
-require_once(__DIR__."/assets/SamplePageClassAuthorisationStrategy.php");
-require_once(__DIR__."/assets/AbstractPage.php");
-require_once(__DIR__."/assets/AbstractAuthorisedPage.php");
-require_once(__DIR__."/assets/LoginPage.php");
-
+use picon\sample\AbstractAuthorisedPage;
+use picon\sample\LoginPage;
+use picon\sample\SamplePageClassAuthorisationStrategy;
 use picon\web\PiconWebApplication;
 
 /**

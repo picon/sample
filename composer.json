@@ -10,7 +10,12 @@
     }
   ],
   "require": {
-    "picon/picon-framework": "*"
+    "picon/picon-framework": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {
+      "picon\\sample\\": "src/picon/sample/"
+    }
   },
   "authors": [
     {
